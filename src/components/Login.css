@@ -1,0 +1,83 @@
+.loginScreen{
+    position:relative;
+    height: 100%;;
+    background:url("https://img.freepik.com/premium-vector/movie-film-banner-design-template-cinema-concept-with-popcorn-filmstrip-film-clapper_41737-249.jpg?w=2000") center no-repeat ;
+    background-size: cover;
+ 
+   
+}
+.loginScreen__gradient{
+    width: 100%;
+    z-index:1;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    background-image: linear-gradient(rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 60%,   rgba(0,0,0,.6) 100%)
+    
+}
+.loginScreen__logo{
+    position: fixed;
+    left:0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.loginScreen__button{
+    position: fixed;
+    right:20px;
+    top:20px;
+    padding:10px 20px;
+    font-size: 1rem;
+    color:white;;
+    background-color:#e50914;
+    cursor: pointer;
+    border:none;
+
+}
+.loginScreen__body{
+
+
+    z-index:1;
+    color:White;
+ position: absolute;
+ top: 30vh;
+ left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  
+    
+    text-align: center;;
+}
+.loginScreen__body> h1{
+    margin-bottom: 10px;;
+  
+}
+.loginScreen__body> h2{
+    font-weight: 400;
+    margin-bottom: 10px;;
+ 
+}
+.loginScreen__body> h3{
+    font-weight: 400;
+    margin-bottom: 10px;;
+ 
+}
+
+.loginScreen__input > form > input{
+    padding:10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;max-width:600px;
+    border:none;
+
+    ;
+
+}
+.loginScreen__getStarted{
+    padding:16px 20px;
+    font-size:1rem;
+    color:white;
+    background-color:#e50914;
+    cursor:pointer;
+    border:none;
+}
