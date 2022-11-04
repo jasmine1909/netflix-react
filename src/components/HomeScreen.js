@@ -24,6 +24,17 @@ const HomeScreen = () => {
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Science Fiction Movies" fetchUrl={requests.fetchSciFi} />
       <Row title="Animation Movies" fetchUrl={requests.fetchAnimation} />
+      <p
+        style={{
+          backgroundColor: "black",
+          textAlign: "center",
+          color: "white",
+          padding: "15px",
+        }}
+      >
+        {" "}
+        Copyright &copy; 2022 JasmineHoang. All Rights Reserved{" "}
+      </p>
     </div>
   );
 };
